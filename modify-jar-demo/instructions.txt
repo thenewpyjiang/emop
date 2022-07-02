@@ -1,0 +1,16 @@
+Instructions
+
+1. Change to modify-jar-demo directory
+2. run `mkdir before && cd before`
+3. run `jar -xf ../TicTacToe.jar`
+4. run `cat META-INF/MANIFEST.MF`, and you'll see the default MANIFEST.MF file
+5. run `cd ..`
+6. run `javac ZipFSPUser.java`
+7. run `java ZipFSPUser`
+8. run `mkdir after && cd after`
+9. run `jar -xf ../TicTacToe.jar`
+10. run `cat META-INF/MANIFEST.MF`
+11. And you'll see this very instruction!
+
+So far I can only do it by replacing the entire file
+I still have not figured out how to "edit" the file, if we ever need that
